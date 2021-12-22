@@ -1,6 +1,6 @@
 
 html{
-  color: #666666;
+  color: #bba0a0;
 }
 body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
@@ -189,6 +189,7 @@ ul#services h3{
     float: none;
     text-align: center;
     width: 100%;
+    padding: 3px;
   }
 
   header {
@@ -210,5 +211,39 @@ ul#services h3{
   .contact label{
     width: 100%;
     margin-bottom: 5px;
+  }
+}
+
+img{
+  height: 40%;
+  width: 40%;
+}
+.btn:hover{
+  background-color: rgb(241, 6, 6);
+  font-weight: bold;
+  animation-name: button;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.btn {
+  width: 150px;
+  background-color: #32a0c2;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+@keyframes button{
+  0%{
+    transform: translateY(10%);
   }
 }
