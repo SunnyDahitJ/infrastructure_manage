@@ -398,3 +398,10 @@ form.sign-in-form {
     left: 50%;
   }
 }
+
+
+#image-form {
+  display: inline-block;
+  background: #fff;
+  padding: 10px;
+}
